@@ -1,0 +1,35 @@
+#workbox{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#workbox>div{
+    width: 45%;
+}
+#workbox>div>h5{
+    position: relative;
+    padding-left:15px;
+    font-size: 16px;
+    color: #928F91;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+#workbox>div>h5>span{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+#workbox>div>h5::before{
+    content: '';
+    height: 100%;
+    width: 3px;
+    border-radius: 20px;
+    position: absolute;
+    left: 0%;
+    background-color: #FD645F;
+}
+#workbox>div>p{
+    padding-left: 15px;
+    margin-top: 10px;
+}

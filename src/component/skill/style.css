@@ -1,0 +1,23 @@
+
+#skill{
+  display: flex;
+  align-items: flex-start;
+  padding: 15px 0px;
+}
+
+#skill>ul{
+  flex: .28;
+}
+#skill>ul>h4{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#skill>ul>li{
+  text-transform: uppercase;
+  padding-left: 18px;
+  padding-bottom: 18px;
+  border-left: 2px solid red;
+}
+#skill>ul>li:last-child{
+  padding-bottom:3px;
+}
